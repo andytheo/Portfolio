@@ -1,0 +1,93 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Viaoda Libre', cursive; */
+
+
+#top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7)) , url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.5; */
+  height: 650px;
+  margin: -10px -10px 0;
+}
+
+.navs-section {
+  display: grid;
+}
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+}
+
+.navigations {
+  color: white;
+  text-align: right;
+  margin-top: -80px;
+
+}
+
+.links {
+  text-decoration: none;
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  color: white;
+  padding: 150px 100px 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.andrew {
+  color: #CDF0EA;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-top: -20px;
+  font-weight: lighter;
+}
+#projects {
+  padding-top: 40px;
+  background-color: #FFF5FD;
+  text-align: center;
+  height: 550px;
+}
+.project-image {
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+#blog {
+  padding-top: 40px;
+  background-color: #CDF0EA;
+  text-align: center;
+  height: 550px;
+}
+#contact {
+  padding-top: 40px;
+  background-color: #FFF5FD;
+  text-align: center;
+  height: 550px;
+}
+
+.caption {
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: underline;
+  text-decoration-color: #BE0000;
+  text-decoration-style: solid;
+}
