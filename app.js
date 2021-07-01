@@ -8,6 +8,9 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
+app.use('/fa', express.static(__dirname + '/node_modules/font-awesome/css'));
+app.use('/fonts', express.static(__dirname + '/node_modules/font-awesome/fonts'));
+
 app.get("/", function (req, res) {
   res.render("home");
 });
