@@ -14,7 +14,11 @@ app.use('/fonts', express.static(__dirname + '/node_modules/font-awesome/fonts')
 app.get("/", function (req, res) {
   res.render("home");
 });
+app.get("/cv", function (req, res) {
+  res.render("cv");
+});
 
-app.listen(3000, function () {
+
+app.listen(process.env.PORT || 3000, function () {
   console.log("Server's serving.");
 })
