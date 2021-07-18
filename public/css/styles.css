@@ -1,14 +1,3 @@
-/* font-family: 'Abril Fatface', cursive;
-font-family: 'Bangers', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Viaoda Libre', cursive; */
-/* @import url('../node_modules/font-awesome/css/font-awesome.min.css'); */
-/* * {
-  box-sizing: border-box;
-} */
-
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +8,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* opacity: 0.5; */
   height: 650px;
   margin: -10px -10px 0;
 }
@@ -62,7 +50,7 @@ body {
 
 .title {
   font-size: 1.8rem;
-  margin-top: -15px;
+  margin-top: -10px;
   font-weight: lighter;
 }
 .scrolldown {
@@ -115,14 +103,10 @@ body {
   }
 }
 #profile {
-  padding-top: 40px;
-  background-color: #E8F6EF;
+  padding: 40px 0;
 }
 .profile {
-  /* position: relative; */
-  /* top: 50%; */
-  /* left: 50%; */
-  margin: 70px auto;
+  margin: 40px auto;
   justify-content: center;
   transform: translate()-50px, -50px;
   height: 300px;
@@ -162,20 +146,15 @@ body {
   text-align: center;
 }
 .skills {
-  padding: 50px;
+  padding: 50px 0 20px;
   text-align: center;
 }
-.skills-images {
-  width: 80px;
-  height: 80px;
-}
+
 #projects {
+  margin: -8px;
   text-align: center;
-  padding: 30px 0;
-}
-
-.portfolio-site {
-
+  padding: 25px;
+  background-color: #EEEEEE;
 }
 .project-intro {
   margin-bottom: 20px;
@@ -194,9 +173,20 @@ body {
   width: 370px;
   height: 210px;
   color: black;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   border-radius: 10px;
   background-image: url("../images/me-desktop.png");
+  background-size: cover;
+  background-position: center;
+}
+.desktop-screen-2 {
+  margin: 15px;
+  width: 370px;
+  height: 210px;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background-image: url("../images/card.png");
   background-size: cover;
   background-position: center;
 }
@@ -219,9 +209,19 @@ body {
   margin: 5px 2px;
   width: 83px;
   height: 170px;
-  border: 1px solid black;
+  border: .5px solid lightgrey;
   border-radius: 1px;
-  background-image: url("../images/me-desktop.png");
+  background-image: url("../images/phone-screen-me.png");
+  background-size: cover;
+  background-position: center;
+}
+.phone-screen-2 {
+  margin: 5px 2px;
+  width: 83px;
+  height: 170px;
+  border: .5px solid lightgrey;
+  border-radius: 1px;
+  background-image: url("../images/phone-card.png");
   background-size: cover;
   background-position: center;
 }
@@ -243,13 +243,14 @@ body {
 }
 
 #contact {
-  margin: 50px auto;
-  background-color: #E8F6EF;
+  margin: 30px auto;
   padding: 30px;
   text-align: center;
 }
-.form-class {
-
+.need-a-site {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bolder;
+  font-size: 3rem;
 }
 
 .contact-form {
@@ -263,7 +264,6 @@ body {
 }
 .caption {
   text-align: center;
-  /* font-family: 'Abril Fatface', cursive; */
   text-decoration: underline;
   text-decoration-color: #57837B;
   padding-bottom: 40px;
@@ -274,12 +274,8 @@ body {
   text-align: center;
 }
 
-.icons {
-  /* padding: 10px 0 0; */
-
-}
 .icon-class {
   padding: 0 10px;
-  color: #57837B;
+  color: #2B2B2B;
 
 }

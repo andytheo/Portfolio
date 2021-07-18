@@ -1,0 +1,23 @@
+.top {
+  background-color: #57837B;
+  height: 350px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 2rem;
+}
+
+.cv {
+  width: 700px;
+  height: 900px;
+  background-image: url("../images/Resume_page-0001.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: -150px auto 30px;
+  box-shadow: 1px 1px 7px black;
+}
+
+.download-cv {
+  text-align: center;
+  margin: 50px auto;
+}
